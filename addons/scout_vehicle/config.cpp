@@ -2,10 +2,10 @@
 
 class CfgPatches {
     class ADDON {
-        units[] = {"bcar"};
+        units[] = {"abe_scout"};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_common"};
+        requiredAddons[] = {"abe_common"};
         VERSION_CONFIG;
     };
 };

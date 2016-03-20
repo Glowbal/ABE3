@@ -1,0 +1,12 @@
+name = "ABE";
+picture = "logo_abe_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/glowbal/ABE";
+description = "Additional Factions Pack";
+logo = "logo_abe_ca.paa";
+logoOver = "logo_abe_ca.paa";
+tooltip = "";
+tooltipOwned = "";
+overview = "";
+author = "Glowbal";
+overviewPicture = "logo_abe_ca.paa";

@@ -1,5 +1,5 @@
 #define COMPONENT abe3
-#include "\z\ace\addons\main\script_mod.hpp"
+#include "\z\abe\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,4 +14,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_ABE3
 #endif
 
-#include "\z\ace\addons\main\script_macros.hpp"
+#include "\z\abe\addons\main\script_macros.hpp"
