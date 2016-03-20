@@ -5,7 +5,7 @@ class CfgPatches {
         units[] = {"abe_scout"};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"abe_common"};
+        requiredAddons[] = {"abe_main"};
         VERSION_CONFIG;
     };
 };

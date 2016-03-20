@@ -1,4 +1,4 @@
-#define COMPONENT abe3
+#define COMPONENT scout_vehicle
 #include "\z\abe\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
@@ -6,12 +6,12 @@
 // #define CBA_DEBUG_SYNCHRONOUS
 // #define ENABLE_PERFORMANCE_COUNTERS
 
-#ifdef DEBUG_ENABLED_ABE3
+#ifdef DEBUG_ENABLED_SCOUT_VEHICLE
     #define DEBUG_MODE_FULL
 #endif
 
-#ifdef DEBUG_SETTINGS_ABE3
-    #define DEBUG_SETTINGS DEBUG_SETTINGS_ABE3
+#ifdef DEBUG_SETTINGS_SCOUT_VEHICLE
+    #define DEBUG_SETTINGS DEBUG_SETTINGS_SCOUT_VEHICLE
 #endif
 
 #include "\z\abe\addons\main\script_macros.hpp"

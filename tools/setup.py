@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #######################
-#  ACE3 Setup Script  #
+#  ABE3 Setup Script  #
 #######################
 
 import os
@@ -13,7 +13,7 @@ import winreg
 
 ######## GLOBALS #########
 MAINDIR = "z"
-PROJECTDIR = "ABE"
+PROJECTDIR = "abe"
 CBA = "P:\\x\\cba"
 ##########################
 
@@ -21,23 +21,21 @@ def main():
     FULLDIR = "{}\\{}".format(MAINDIR,PROJECTDIR)
     print("""
   ######################################
-  # ACE3 Development Environment Setup #
+  # ABE3 Development Environment Setup #
   ######################################
 
-  This script will create your ACE3 dev environment for you.
-  
+  This script will create your ABE3 dev environment for you.
+
   Before you run this, you should already have:
-    - The Arma 3 Tools installed properly via Steam
-    - A properly set up P-drive
-  
+    - A properly setup ACE3 Development Environment
+
   If you have not done those things yet, please abort this script in the next step and do so first.
-  
-  This script will create two hard links on your system, both pointing to your ACE3 project folder:
-    [Arma 3 installation directory]\\{} => ACE3 project folder
-    P:\\{}                              => ACE3 project folder
-  
-  It will also copy the required CBA includes to {}, if you do not have the CBA source code already.""".format(FULLDIR,FULLDIR,CBA))
-    print("\n") 
+
+  This script will create two hard links on your system, both pointing to your ABE3 project folder:
+    [Arma 3 installation directory]\\{} => ABE3 project folder
+    P:\\{}                              => ABE3 project folder
+    """.format(FULLDIR,FULLDIR,CBA))
+    print("\n")
 
     try:
         reg = winreg.ConnectRegistry(None, winreg.HKEY_LOCAL_MACHINE)
@@ -48,8 +46,8 @@ def main():
         print("Failed to determine Arma 3 Path.")
         return 1
 
-    if not os.path.exists("P:\\"):
-        print("No P-drive detected.")
+    if not os.path.exists("P:\\z\\ace"):
+        print("No ACE3 Development Environment detected.")
         return 2
 
     scriptpath = os.path.realpath(__file__)
@@ -91,22 +89,6 @@ def main():
         return 6
 
     print("# Links created successfully.")
-
-
-    print("\n# Copying required CBA includes ...")
-
-    if os.path.exists(CBA):
-        print("{} already exists, skipping.".format(CBA))
-        return -1
-
-    try:
-        shutil.copytree(os.path.join(projectpath, "tools", "cba"), CBA)
-    except:
-        raise
-        print("Something went wrong while copying CBA includes. Please copy tools\\cba to {} manually.".format(CBA))
-        return 7
-
-    print("# CBA includes copied successfully to {}.".format(CBA))
 
     return 0
 

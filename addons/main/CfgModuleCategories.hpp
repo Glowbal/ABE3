@@ -6,3 +6,9 @@ class CfgFactionClasses {
         side = 7;
     };
 };
+
+class CfgVehicleClasses {
+    class ABE_Vehicles {
+        displayName = "ABE Vehicles";
+    };
+};

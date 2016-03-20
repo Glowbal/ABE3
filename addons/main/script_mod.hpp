@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX z
-#define PREFIX ABE
+#define PREFIX abe
 
 #define MAJOR 1
 #define MINOR 0
@@ -14,4 +14,4 @@
 #define ABE_TAG ABE
 
 // MINIMAL required version for the Mod. Components can specify others..
-#define REQUIRED_VERSION 0.5
+#define REQUIRED_VERSION 1.56
