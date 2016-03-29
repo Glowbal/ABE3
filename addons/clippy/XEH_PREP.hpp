@@ -1,0 +1,2 @@
+PREP(catchMouseEnter);
+PREP(showClippy);
