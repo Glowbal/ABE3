@@ -9,5 +9,6 @@ PabstMirror
 
 
 # CONTRIBUTORS
+BaerMitUmlaut
 Jonpas
 Ulteq
