@@ -30,6 +30,9 @@ The mod is **built modularly**, so almost any included PBO can be easily removed
 ### Contains
 * Scout vehicles
 * Improved grenades
+* Realistic hitmarkers
+* Immersive gameplay hints
+* User interface improvements
 
 #### Contributing
 You can help out with the ongoing development by looking for potential bugs in our code base, or by contributing new features. To contribute something to ABE AddOns, simply fork this repository and submit your pull requests for review by other collaborators. Remember to add yourself to the author array of any PBO you will be editing and the [`AUTHORS.txt`](https://github.com/acemod/ABE3/blob/master/AUTHORS.txt) file; including a valid email address.
