@@ -14,7 +14,6 @@ import winreg
 ######## GLOBALS #########
 MAINDIR = "z"
 PROJECTDIR = "abe"
-CBA = "P:\\x\\cba"
 ##########################
 
 def main():
@@ -34,7 +33,7 @@ def main():
   This script will create two hard links on your system, both pointing to your ABE3 project folder:
     [Arma 3 installation directory]\\{} => ABE3 project folder
     P:\\{}                              => ABE3 project folder
-    """.format(FULLDIR,FULLDIR,CBA))
+    """.format(FULLDIR,FULLDIR))
     print("\n")
 
     try:
