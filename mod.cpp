@@ -1,12 +1,12 @@
 name = "Advanced Banana Environment 3";
-picture = "logo_abe_ca.paa";
+picture = "logo_abe3_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/glowbal/ABE3";
 description = "ABE3";
-logo = "logo_abe_ca.paa";
-logoOver = "logo_abe_ca.paa";
+logo = "logo_abe3_ca.paa";
+logoOver = "logo_abe3_ca.paa";
 tooltip = "ABE3";
 tooltipOwned = "ACE3 Owned";
 overview = "Advanced Banana Environment 3, also known as ABE3, is an Arma 3 mod that aims to compliment the ACE3 project, with a CBA A3 and ACE3 requirement.";
 author = "ACE3 Team";
-overviewPicture = "logo_abe_ca.paa";
+overviewPicture = "logo_abe3_ca.paa";
