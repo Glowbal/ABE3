@@ -13,7 +13,7 @@
         <img src="http://img.shields.io/badge/License-APL-red.svg" alt="ABE3 License">
     </a>
 </p>
-<p align="center"><sup><strong>Requires the latest version of <a href="http://www.armaholic.com/page.php?id=18767">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases/latest">ACE3</a>.</strong></sup></p>
+<p align="center"><sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases/latest">ACE3</a>.</strong></sup></p>
 
 **Advanced Banana Environment** is an Arma 3 mod that aims to compliment the ACE3 project, with a CBA A3 and ACE3 requirement.
 
