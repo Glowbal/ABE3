@@ -1,22 +1,15 @@
 <p align="center">
-    <h2>Advanced Banana Environment</h2>
+    <b><big>Advanced Banana Environment</big></b>
 </p>
 <p align="center">
     <a href="https://github.com/acemod/ABE3/releases">
-        <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg"
-             alt="ABE Version">
-    </a>
-    <a href="https://github.com/acemod/ABE3/releases/latest">
-        <img src="http://img.shields.io/badge/Download-152_MB-green.svg"
-             alt="ABE Download">
+        <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="ABE Version">
     </a>
     <a href="https://github.com/acemod/ABE3/issues">
-        <img src="http://img.shields.io/github/issues-raw/acemod/ABE.svg?label=Issues"
-             alt="ABE Issues">
+        <img src="http://img.shields.io/github/issues-raw/acemod/ABE.svg?label=Issues" alt="ABE Issues">
     </a>
     <a href="https://github.com/acemod/ABE3/blob/master/LICENSE">
-        <img src="http://img.shields.io/badge/License-GPLv2-red.svg"
-             alt="ABE License">
+        <img src="http://img.shields.io/badge/License-GPLv2-red.svg" alt="ABE License">
     </a>
 </p>
 <p align="center"><sup><strong>Requires the latest version of <a href="http://www.armaholic.com/page.php?id=18767">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases/latest">ACE3</a>.</strong></sup></p>
