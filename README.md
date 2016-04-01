@@ -19,7 +19,7 @@
 
 The project is entirely **open-source** and all contributions are welcome. Feel free to maintain your own custom version, so long as the changes you make are open to the public in accordance with the Arma Public License ([APL](https://github.com/acemod/ABE3/blob/master/LICENSE)).
 
-The mod is **built modularly**, so almost any included PBO can be easily removed from the configuration. This way, a team can maintain its own tailored version of ABE AddOns by simply excluding any components they don't need, or those possibly in conflict with other add-ons. Modules themselves, e.g. the medical system, also include various customization options, allowing mission designers to tweak the overall experience.
+The mod is **built modularly**, so almost any included PBO can be easily removed from the configuration. This way, a team can maintain its own tailored version of ABE AddOns by simply excluding any components they don't need, or those possibly in conflict with other add-ons.
 
 ### Contains
 * Scout vehicles
