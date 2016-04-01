@@ -1,6 +1,7 @@
 <p align="center">
-    <b><big>Advanced Banana Environment</big></b>
+    <img src="https://github.com/acemod/ABE3/raw/master/extras/assets/abe3_logo.png" width="480">
 </p>
+
 <p align="center">
     <a href="https://github.com/acemod/ABE3/releases">
         <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="ABE Version">
