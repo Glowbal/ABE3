@@ -1,6 +1,5 @@
 class CfgMagazines {
     class HandGrenade;
-
     class GVAR(bananaGrenade): HandGrenade {
         displayName = "Banana Grenade";
         displayNameShort = "BG 1416";
