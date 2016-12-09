@@ -104,5 +104,4 @@ class GVAR(dialog) {
         x = safeZoneX + safeZoneW - 0.675 * 3/4 + 0.45 * 3/4 - 0.15;
         text = "Absolutely";
     };
-
 };
